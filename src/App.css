@@ -36,3 +36,29 @@
     transform: rotate(360deg);
   }
 }
+
+.game {
+  display: grid;
+  grid-template-columns: repeat(4 ,1fr);
+  grid-auto-rows: 100px; 
+  align-items: center;
+  justify-items: center;
+  width:50%;
+}
+
+.card {
+  border: 2px solid rgb(255, 255, 255);
+  border-radius: 20px;
+  background: #ffb004;
+  width:100px;
+  height:80px;
+  line-height: 80px;
+}
+
+.visible{
+  visibility: visible;
+}
+
+.invisible{
+  visibility: hidden;
+}
